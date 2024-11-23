@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Shadows Into Light", cursive !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-image: url("./images/bg_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav_bar {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav_bar:hover {
+  background: rgb(27, 25, 25);
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.nav_bar a:hover {
+  background-color: rgb(131, 130, 130);
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thin {
+  margin-top: 60px;
+  font-size: 70px;
+}
+
+.box {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(27, 25, 25);
+}
+
+.box:hover {
+  background-color: grey;
+}
+
+.box1 {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(27, 25, 25);
+  margin: 50px;
+  padding-top: 200px;
+}
+
+
+
+.heading div {
+  padding: 10px
+}
+
+.container1 {
+
+  width: 1000px;
+  margin-left: 180px;
+  height: auto;
+}
+
+.menus:hover {
+  background-color: rgb(252, 90, 90);
+}
+
+
+
+.abt1 {
+  margin: 50px;
+  padding: 20px 20px 20px 100px;
+
+}
+
+.map_1 {
+
+  width: 100%;
+}
+
+.mains {
+  background-color: #c9e1fa;
+}
+
+.form1 {
+  margin: 150px;
+  padding: 30px;
+
+}
+
+.form1 input {
+  padding: 10px;
+  font-size: medium;
+  border: 1px solid rgb(32, 32, 32);
+  background-color: azure;
+  height: 60px;
+}
+
+footer {
+  padding-bottom: 30px;
+}
+
+button {
+  padding: 10px;
+  font-size: medium;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 20px;
+  background-color: azure;
+  height: 60px;
+  width: 1060px;
 }
