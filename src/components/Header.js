@@ -29,12 +29,14 @@ function Header(props) {
                 <p className="text-white text-center" id="shop" >Thin<br></br>
                     CRUST PIZZA</p>
             </div>
-            <div className=" text-center text-white border border-0 mx-auto p-2  box" onClick={() => props.student(5, 0)}>
-                Let me see Menu
-            </div>
+            <div className='d-flex justify-content-around align-content-center'>
+                <div className=" text-center text-white border border-0  p-2  box" onClick={() => props.student(5, 0)}>
+                    Let me see Menu
+                </div>
 
-            <div className=" text-center text-white border border-0 p-2 h5 box1 ">
-                Open from 10am to 12pm
+                <div className=" text-center text-white border border-0 p-2 h5 box1 ">
+                    Open from 10am to 12pm
+                </div>
             </div>
         </header >
     )
