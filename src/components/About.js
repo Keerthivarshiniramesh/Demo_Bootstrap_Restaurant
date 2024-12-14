@@ -5,7 +5,7 @@ import map from '../images/map.jpg'
 
 function About() {
     return (
-        <main className=" mains">
+        <main className=" mains bg-dark">
             <p className="display-3 text-center text-white p-4">About</p>
             <p className="h4 text-white  lh-lg abt1 ">
                 The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

@@ -30,8 +30,8 @@ function Header(props) {
                     CRUST PIZZA</p>
             </div>
             <div className='d-flex justify-content-around align-content-center'>
-                <div className=" text-center text-white border border-0  p-2  box" onClick={() => props.student(5, 0)}>
-                    Let me see Menu
+                <div className=" text-center text-white border border-0  p-2  box">
+                    <a href="#menu" className='text-decoration-none text-white'>Let me see Menu</a>
                 </div>
 
                 <div className=" text-center text-white border border-0 p-2 h5 box1 ">

@@ -8,22 +8,22 @@ function Contact() {
             <form className="form1">
                 <div className="mb-4">
 
-                    <input type="text" class="form-control" id="name" placeholder="Name" />
+                    <input type="text" className="form-control" id="name" placeholder="Name" />
                 </div>
 
                 <div className="mb-4">
 
-                    <input type="number" class="form-control" id="seats" placeholder="number of seats" />
+                    <input type="number" className="form-control" id="seats" placeholder="number of seats" />
                 </div>
 
                 <div className="mb-4">
 
-                    <input type="datetime-local" class="form-control w-5" id="date" placeholder="date" />
+                    <input type="datetime-local" className="form-control w-5" id="date" placeholder="date" />
                 </div>
 
                 <div className="mb-4">
 
-                    <input type="text" class="form-control" id="msg" placeholder="Message" />
+                    <input type="text" className="form-control" id="msg" placeholder="Message" />
                 </div>
                 <div className="mb-4">
 
