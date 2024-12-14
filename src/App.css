@@ -2,12 +2,20 @@ body {
   font-family: "Shadows Into Light", cursive !important;
   font-weight: 400 !important;
   font-style: normal !important;
+
 }
 
 header {
   background-image: url("./images/bg_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    overflow-x: hidden;
+  }
+
 }
 
 .nav_bar {
@@ -40,7 +48,6 @@ header {
 .box1 {
   width: 200px;
   height: 50px;
-
   background-color: rgb(27, 25, 25);
 }
 
@@ -52,6 +59,15 @@ header {
   width: 1000px;
   margin-left: 180px;
   height: auto;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container1 {
+    overflow-x: hidden;
+    margin-left: 20px;
+    width: 400px;
+  }
+
 }
 
 .menus:hover {
@@ -96,4 +112,11 @@ button {
   background-color: azure;
   height: 60px;
   width: 1060px;
+}
+
+@media (min-width:576px) and (max-width:767px) {
+  button {
+    width: 330px;
+    border-radius: 20px;
+  }
 }

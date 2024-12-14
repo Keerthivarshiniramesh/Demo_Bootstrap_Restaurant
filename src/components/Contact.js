@@ -13,7 +13,7 @@ function Contact() {
 
                 <div className="mb-4">
 
-                    <input type="number" className="form-control" id="seats" placeholder="number of seats" />
+                    <input type="number" className="form-control" id="seats" placeholder="Number of seats" />
                 </div>
 
                 <div className="mb-4">

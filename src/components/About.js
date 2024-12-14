@@ -5,7 +5,7 @@ import map from '../images/map.jpg'
 
 function About() {
     return (
-        <main className=" mains bg-dark">
+        <main className=" mains bg-secondary text-white">
             <p className="display-3 text-center text-white p-4">About</p>
             <p className="h4 text-white  lh-lg abt1 ">
                 The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -27,7 +27,7 @@ function About() {
 
             <div className='pt-5 m-5 abt1'>
                 <p className='display-3'>Opening Hours</p>
-                <div className='d-flex justify-content-around pt-5 mt-5'>
+                <div className='d-flex justify-content-around pt-5 mt-5 '>
                     <p className=' h4 lh-lg'>
                         Mon & Tue CLOSED<br></br>
 

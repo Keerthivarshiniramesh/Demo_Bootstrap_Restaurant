@@ -7,7 +7,6 @@ function Menu() {
         setMenubutton(menu)
     }
 
-
     return (
         <main className="bg-dark p-5">
 
@@ -15,7 +14,7 @@ function Menu() {
             <div className="container1 border border-1 ">
                 <div className=" border border-1 heading d-flex justify-content-between">
                     <div className={`text-white  d-inline-block display-6  p-3 ${menubutton === "PIZZA" ? "bg-danger" : ""}`} onClick={() => menus("PIZZA")} >PIZZA</div>
-                    <div className={`text-white  d-inline-block display-6  p-3 ${menubutton === "SALADS" ? "bg-danger" : ""}`} onClick={(e) => menus("SALADS")}>SALADS</div>
+                    <div className={`text-white  d-inline-block display-6  p-3 ${menubutton === "SALADS" ? "bg-danger" : ""}`} onClick={() => menus("SALADS")}>SALADS</div>
                     <div className={`text-white  d-inline-block display-6  p-3 ${menubutton === "STARTER" ? "bg-danger" : ""}`} onClick={() => menus("STARTER")}>STARTER</div>
                 </div>
 
@@ -43,19 +42,14 @@ function Menu() {
                         <div className="d-flex justify-content-between">
                             <p className="h2 d-inline-block text-danger">Pineapple'o'clock</p>
                             <span className="border border-1 h2 border-dark bg-dark text-white p-2 rounded">$16.50</span></div>
-                        <p className="mt-3 h3">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
-
-                        </p>
+                        <p className="mt-3 h3">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
                         <hr></hr>
 
                         <div className="d-flex justify-content-between">
                             <p className="h2 d-inline-block text-danger">Meat Town  <span className="border border-1 h4  bg-danger text-white p-2 rounded">HOT !</span></p>
                             <span className="border border-1 h2 border-dark bg-dark text-white p-2 rounded">$20.00</span></div>
-                        <p className="mt-3 h3">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken
-
-                        </p>
+                        <p className="mt-3 h3">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
                         <hr></hr>
-
                     </div>
                 }
 
